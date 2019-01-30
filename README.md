@@ -7,7 +7,7 @@ This repo contains crowdsourced testcases for the ECE250 programming labs
 There isn't an elaborate script or anything right now to retrieve various test cases. In the meantime you can just use `wget` with the raw github file links.
 
 ```console
-wget https://raw.githubusercontent.com/ecesociety/ECE250-test-cases/master/LAB_NAME/COLLECTION/TEST_FILE.TXT
+wget https://raw.githubusercontent.com/ecesociety/ECE250-test-cases/master/LAB_NAME/COLLECTION/TEST_FILE.in
 ```
 
 ## Contributing
@@ -19,10 +19,10 @@ README.md
 LAB_1/
     collection_1/
         README.md
-        test_1.txt
-        test_2.txt
+        test_1.in
+        test_2.in
     collection_2/
         README.md
-        test_1.txt
-        test_2.txt
+        test_1.in
+        test_2.in
 ```
