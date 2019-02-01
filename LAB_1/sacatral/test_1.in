@@ -1,0 +1,25 @@
+new
+push 3
+push 4
+push 2
+push 1
+push 7
+push 8
+push 6
+push 5
+push 11
+push 10
+push 9
+top 9
+size 11
+max 11
+min 1
+capacity 20
+clear
+capacity 10
+top!
+size 0
+max!
+min!
+delete
+summary
