@@ -1,0 +1,39 @@
+new: 1
+empty 1
+capacity 1
+size 0
+top!
+min!
+max!
+push 3
+top 3
+min 3
+max 3
+empty 0
+push 5
+top 5
+max 5
+min 3
+push -2
+top -2
+max 5
+min -2
+size 3
+capacity 4
+pop -2
+top 5
+min 3
+max 5
+pop 5
+min 3
+max 3
+top 3
+pop 3
+pop!
+min!
+max!
+capacity 4
+size 0
+empty 1
+delete
+summary

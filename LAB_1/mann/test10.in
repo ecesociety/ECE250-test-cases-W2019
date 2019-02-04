@@ -1,0 +1,100 @@
+new
+capacity 10
+empty 1
+top!
+min!
+max!
+push -90
+top -90
+min -90
+max -90
+empty 0
+pop -90
+pop!
+empty 1
+top!
+min!
+max!
+push 100
+empty 0
+max 100
+min 100
+top 100
+push  48
+top 48
+max 100
+min 48
+push  29
+top 29
+max 100
+min 29
+push  58
+top 58
+max 100
+min 29
+push  50
+top 50
+max 100
+min 29
+push -98
+top -98
+max 100
+min -98
+push -39
+top -39
+max 100
+min -98
+push  64
+top 64
+max 100
+min -98
+push  77
+top 77
+max 100
+min -98
+push -24
+top -24
+max 100
+min -98
+push -26
+top -26
+max 100
+min -98
+push  98
+top 98
+max 100
+min -98
+push -60
+top -60
+max 100
+min -98
+push -66
+top -66
+max 100
+min -98
+push -78
+top -78
+max 100
+min -98
+pop -78
+pop -66
+pop -60
+pop 98
+pop -26
+pop -24
+pop 77
+pop 64
+pop -39
+pop -98
+pop 50
+pop 58
+pop 29
+pop 48
+pop 100
+empty 1
+capacity 20
+clear
+capacity 10
+empty 1
+delete
+summary
