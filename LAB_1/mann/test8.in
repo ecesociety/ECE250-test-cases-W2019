@@ -1,0 +1,10 @@
+new
+empty 1
+pop!
+pop!
+min!
+max!
+top!
+empty 1
+delete
+summary
