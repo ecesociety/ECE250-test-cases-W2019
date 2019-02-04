@@ -1,0 +1,34 @@
+new: -4
+push 10
+push 2
+capacity 2
+clear
+capacity 1
+top!
+max!
+min!
+push 3
+push 4
+push 2
+max 4
+min 2
+pop 2
+min 3
+clear
+delete
+new: 4
+push 10
+push 5
+push -11
+push 12
+max 12
+min -11
+pop 12
+top -11
+push 1
+push 2
+capacity 8
+clear
+delete
+summary
+details
