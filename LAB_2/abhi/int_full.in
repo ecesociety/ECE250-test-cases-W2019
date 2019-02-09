@@ -1,0 +1,176 @@
+//-------//-------//
+// //Abhishek K's ECE250 P2 test cases// //
+//-------//-------//
+//       //
+//**--**--**--**\\
+// Hash function (random inserts) + clear //
+//**--**--**--**\\
+new: 4 //2^(4) bins
+capacity 16
+insert 2352
+bin 0 2352
+insert 758493
+bin 13 758493
+insert -57849
+bin 7 -57849
+insert 578448 //collision at bin0
+bin 9 578448
+insert 8449
+bin 1 8449
+insert 3085 //collision at bin13
+bin 14 3085
+size 6
+
+//fill 'em up:
+insert 1
+insert 2
+insert 3
+insert 4
+insert 5
+insert 6
+insert 7
+insert 8
+insert 9
+insert 10
+size 16
+
+//should throw overflow; we're at capacity!
+insert!
+size 16
+capacity 16
+
+clear
+size 0
+capacity 16
+delete
+
+//round 2! many collisions incoming!
+new: 3
+insert 0
+insert 1
+insert 2
+insert 3
+insert 5
+insert 6
+insert 7
+size 7
+capacity 8
+
+insert 10 //collisions: 2, 3, 5, 6, 7, 0, 2, 3
+bin 4 10
+
+clear
+delete
+
+//round 3!! more collisions
+new: 3
+insert 0
+insert 1
+insert 2
+insert 4
+insert 5
+insert 6
+
+insert 420 //collisions: 4, 1, 5, 2, 6
+bin 3 420
+
+//Disclaimer: I am in no way affiliated with the devil. I just got bored and used 666. And apparently I'm still bored, so here we are.//
+insert 666 //collisions: 2, 5, 1, 4
+bin 7 666
+
+delete
+summary
+
+//**--**--**--**\\
+// Insert until full + remove until empty //
+//**--**--**--**\\
+
+new: 2 //2^(2) bins
+capacity 4
+size 0
+empty 1
+insert 1
+bin 1 1
+insert 2
+bin 2 2
+insert 3
+bin 3 3
+insert 4
+bin 0 4 //bins start at 0 and go to 2^(size)-1, so bins 1,2,3 are full and "4" should go in bin4
+
+insert! //inserting now should throw overflow
+size 4
+capacity 4
+empty 0
+
+remove 0 0 //there should be no element "0" in the hash table, so trying to remove "0" should be false (i.e. "0" again)
+size 4 //size shouldn't be changed because nothing was removed yet! 0 was not in the table so it shouldn't count as a removal
+remove 1 1
+remove 2 1
+remove 3 1
+size 1
+remove 5 0 //"5" isn't in the table, so should return false (0) when trying to remove it
+remove 4 1
+size 0
+empty 1
+capacity 4
+delete
+summary
+
+//**--**--**--**\\
+// Weird case //
+//**--**--**--**\\
+new: 0 //2^(0) bins
+capacity 1
+size 0
+insert 1
+insert!
+size 1
+
+remove 0 0 // "0" is not in the table, so remove should return false (0)
+size 1
+
+remove 1 1
+size 0
+
+capacity 1
+delete
+summary
+
+//**--**--**--**\\
+//Insert, fill up, remove some, and insert again //
+//**--**--**--**\\
+new: 2
+insert 0
+insert 1
+insert 2
+insert 3
+
+size 4
+capacity 4
+empty 0
+insert! //at capacity so should throw overflow
+
+remove 0 1 //remove "0"
+size 3
+insert 0 //should again insert 0 into bin0
+bin 0 0
+size 4
+insert!
+
+remove 2 1 //remove "2"
+size 3
+insert 5 //only empty bin is bin2, so should insert 5 in there
+bin 2 5
+size 4
+insert!
+empty 0
+
+clear
+
+empty 1
+size 0
+capacity 4
+
+delete
+details
