@@ -1,6 +1,10 @@
-// //Abhishek's ECE250 P2 test cases// //
-
+//-------//-------//
+// //Abhishek K's ECE250 P2 test cases// //
+//-------//-------//
+//       //
+//**--**--**--**\\
 // Hash function (random inserts) + clear //
+//**--**--**--**\\
 new: 4 //2^(4) bins
 capacity 16
 insert 2352
@@ -17,7 +21,7 @@ insert 3085 //collision at bin13
 bin 14 3085
 size 6
 
-// fill 'em up:
+//fill 'em up:
 insert 1
 insert 2
 insert 3
@@ -30,7 +34,7 @@ insert 9
 insert 10
 size 16
 
-//should throw overflow; at capacity!
+//should throw overflow; we're at capacity!
 insert!
 size 16
 capacity 16
@@ -39,10 +43,47 @@ clear
 size 0
 capacity 16
 delete
-details
 
+//round 2! many collisions incoming!
+new: 3
+insert 0
+insert 1
+insert 2
+insert 3
+insert 5
+insert 6
+insert 7
+size 7
+capacity 8
 
+insert 10 //collisions: 2, 3, 5, 6, 7, 0, 2, 3
+bin 4 10
+
+clear
+delete
+
+//round 3!! more collisions
+new: 3
+insert 0
+insert 1
+insert 2
+insert 4
+insert 5
+insert 6
+
+insert 420 //collisions: 4, 1, 5, 2, 6
+bin 3 420
+
+//Disclaimer: I am in no way affiliated with the devil. I just got bored and used 666. And apparently I'm still bored, so here we are.//
+insert 666 //collisions: 2, 5, 1, 4
+bin 7 666
+
+delete
+summary
+
+//**--**--**--**\\
 // Insert until full + remove until empty //
+//**--**--**--**\\
 
 new: 2 //2^(2) bins
 capacity 4
@@ -74,11 +115,11 @@ size 0
 empty 1
 capacity 4
 delete
-details
+summary
 
-
+//**--**--**--**\\
 // Weird case //
-
+//**--**--**--**\\
 new: 0 //2^(0) bins
 capacity 1
 size 0
@@ -94,10 +135,11 @@ size 0
 
 capacity 1
 delete
-details
+summary
 
-
+//**--**--**--**\\
 //Insert, fill up, remove some, and insert again //
+//**--**--**--**\\
 new: 2
 insert 0
 insert 1
