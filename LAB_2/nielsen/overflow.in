@@ -1,0 +1,10 @@
+new: 2
+insert 0
+insert 1
+insert 2
+insert 3
+insert!
+size 4
+delete
+details
+summary

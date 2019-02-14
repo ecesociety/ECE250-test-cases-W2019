@@ -1,0 +1,1050 @@
+new: 8
+insert 1
+bin 1 1
+insert -1
+bin 255 -1
+insert 2
+bin 2 2
+insert -2
+bin 254 -2
+insert 3
+bin 3 3
+insert -3
+bin 253 -3
+insert 4
+bin 4 4
+insert -4
+bin 252 -4
+insert 5
+bin 5 5
+insert -5
+bin 251 -5
+insert 6
+bin 6 6
+insert -6
+bin 250 -6
+insert 7
+bin 7 7
+insert -7
+bin 249 -7
+insert 8
+bin 8 8
+insert -8
+bin 248 -8
+insert 9
+bin 9 9
+insert -9
+bin 247 -9
+insert 10
+bin 10 10
+insert -10
+bin 246 -10
+insert 11
+bin 11 11
+insert -11
+bin 245 -11
+insert 12
+bin 12 12
+insert -12
+bin 244 -12
+insert 13
+bin 13 13
+insert -13
+bin 243 -13
+insert 14
+bin 14 14
+insert -14
+bin 242 -14
+insert 15
+bin 15 15
+insert -15
+bin 241 -15
+insert 16
+bin 16 16
+insert -16
+bin 240 -16
+insert 17
+bin 17 17
+insert -17
+bin 239 -17
+insert 18
+bin 18 18
+insert -18
+bin 238 -18
+insert 19
+bin 19 19
+insert -19
+bin 237 -19
+insert 20
+bin 20 20
+insert -20
+bin 236 -20
+insert 21
+bin 21 21
+insert -21
+bin 235 -21
+insert 22
+bin 22 22
+insert -22
+bin 234 -22
+insert 23
+bin 23 23
+insert -23
+bin 233 -23
+insert 24
+bin 24 24
+insert -24
+bin 232 -24
+insert 25
+bin 25 25
+insert -25
+bin 231 -25
+insert 26
+bin 26 26
+insert -26
+bin 230 -26
+insert 27
+bin 27 27
+insert -27
+bin 229 -27
+insert 28
+bin 28 28
+insert -28
+bin 228 -28
+insert 29
+bin 29 29
+insert -29
+bin 227 -29
+insert 30
+bin 30 30
+insert -30
+bin 226 -30
+insert 31
+bin 31 31
+insert -31
+bin 225 -31
+insert 32
+bin 32 32
+insert -32
+bin 224 -32
+insert 33
+bin 33 33
+insert -33
+bin 223 -33
+insert 34
+bin 34 34
+insert -34
+bin 222 -34
+insert 35
+bin 35 35
+insert -35
+bin 221 -35
+insert 36
+bin 36 36
+insert -36
+bin 220 -36
+insert 37
+bin 37 37
+insert -37
+bin 219 -37
+insert 38
+bin 38 38
+insert -38
+bin 218 -38
+insert 39
+bin 39 39
+insert -39
+bin 217 -39
+insert 40
+bin 40 40
+insert -40
+bin 216 -40
+insert 41
+bin 41 41
+insert -41
+bin 215 -41
+insert 42
+bin 42 42
+insert -42
+bin 214 -42
+insert 43
+bin 43 43
+insert -43
+bin 213 -43
+insert 44
+bin 44 44
+insert -44
+bin 212 -44
+insert 45
+bin 45 45
+insert -45
+bin 211 -45
+insert 46
+bin 46 46
+insert -46
+bin 210 -46
+insert 47
+bin 47 47
+insert -47
+bin 209 -47
+insert 48
+bin 48 48
+insert -48
+bin 208 -48
+insert 49
+bin 49 49
+insert -49
+bin 207 -49
+insert 50
+bin 50 50
+insert -50
+bin 206 -50
+insert 51
+bin 51 51
+insert -51
+bin 205 -51
+insert 52
+bin 52 52
+insert -52
+bin 204 -52
+insert 53
+bin 53 53
+insert -53
+bin 203 -53
+insert 54
+bin 54 54
+insert -54
+bin 202 -54
+insert 55
+bin 55 55
+insert -55
+bin 201 -55
+insert 56
+bin 56 56
+insert -56
+bin 200 -56
+insert 57
+bin 57 57
+insert -57
+bin 199 -57
+insert 58
+bin 58 58
+insert -58
+bin 198 -58
+insert 59
+bin 59 59
+insert -59
+bin 197 -59
+insert 60
+bin 60 60
+insert -60
+bin 196 -60
+insert 61
+bin 61 61
+insert -61
+bin 195 -61
+insert 62
+bin 62 62
+insert -62
+bin 194 -62
+insert 63
+bin 63 63
+insert -63
+bin 193 -63
+insert 64
+bin 64 64
+insert -64
+bin 192 -64
+insert 65
+bin 65 65
+insert -65
+bin 191 -65
+insert 66
+bin 66 66
+insert -66
+bin 190 -66
+insert 67
+bin 67 67
+insert -67
+bin 189 -67
+insert 68
+bin 68 68
+insert -68
+bin 188 -68
+insert 69
+bin 69 69
+insert -69
+bin 187 -69
+insert 70
+bin 70 70
+insert -70
+bin 186 -70
+insert 71
+bin 71 71
+insert -71
+bin 185 -71
+insert 72
+bin 72 72
+insert -72
+bin 184 -72
+insert 73
+bin 73 73
+insert -73
+bin 183 -73
+insert 74
+bin 74 74
+insert -74
+bin 182 -74
+insert 75
+bin 75 75
+insert -75
+bin 181 -75
+insert 76
+bin 76 76
+insert -76
+bin 180 -76
+insert 77
+bin 77 77
+insert -77
+bin 179 -77
+insert 78
+bin 78 78
+insert -78
+bin 178 -78
+insert 79
+bin 79 79
+insert -79
+bin 177 -79
+insert 80
+bin 80 80
+insert -80
+bin 176 -80
+insert 81
+bin 81 81
+insert -81
+bin 175 -81
+insert 82
+bin 82 82
+insert -82
+bin 174 -82
+insert 83
+bin 83 83
+insert -83
+bin 173 -83
+insert 84
+bin 84 84
+insert -84
+bin 172 -84
+insert 85
+bin 85 85
+insert -85
+bin 171 -85
+insert 86
+bin 86 86
+insert -86
+bin 170 -86
+insert 87
+bin 87 87
+insert -87
+bin 169 -87
+insert 88
+bin 88 88
+insert -88
+bin 168 -88
+insert 89
+bin 89 89
+insert -89
+bin 167 -89
+insert 90
+bin 90 90
+insert -90
+bin 166 -90
+insert 91
+bin 91 91
+insert -91
+bin 165 -91
+insert 92
+bin 92 92
+insert -92
+bin 164 -92
+insert 93
+bin 93 93
+insert -93
+bin 163 -93
+insert 94
+bin 94 94
+insert -94
+bin 162 -94
+insert 95
+bin 95 95
+insert -95
+bin 161 -95
+insert 96
+bin 96 96
+insert -96
+bin 160 -96
+insert 97
+bin 97 97
+insert -97
+bin 159 -97
+insert 98
+bin 98 98
+insert -98
+bin 158 -98
+insert 99
+bin 99 99
+insert -99
+bin 157 -99
+insert 100
+bin 100 100
+insert -100
+bin 156 -100
+insert 101
+bin 101 101
+insert -101
+bin 155 -101
+insert 102
+bin 102 102
+insert -102
+bin 154 -102
+insert 103
+bin 103 103
+insert -103
+bin 153 -103
+insert 104
+bin 104 104
+insert -104
+bin 152 -104
+insert 105
+bin 105 105
+insert -105
+bin 151 -105
+insert 106
+bin 106 106
+insert -106
+bin 150 -106
+insert 107
+bin 107 107
+insert -107
+bin 149 -107
+insert 108
+bin 108 108
+insert -108
+bin 148 -108
+insert 109
+bin 109 109
+insert -109
+bin 147 -109
+insert 110
+bin 110 110
+insert -110
+bin 146 -110
+insert 111
+bin 111 111
+insert -111
+bin 145 -111
+insert 112
+bin 112 112
+insert -112
+bin 144 -112
+insert 113
+bin 113 113
+insert -113
+bin 143 -113
+insert 114
+bin 114 114
+insert -114
+bin 142 -114
+insert 115
+bin 115 115
+insert -115
+bin 141 -115
+insert 116
+bin 116 116
+insert -116
+bin 140 -116
+insert 117
+bin 117 117
+insert -117
+bin 139 -117
+insert 118
+bin 118 118
+insert -118
+bin 138 -118
+insert 119
+bin 119 119
+insert -119
+bin 137 -119
+insert 120
+bin 120 120
+insert -120
+bin 136 -120
+insert 121
+bin 121 121
+insert -121
+bin 135 -121
+insert 122
+bin 122 122
+insert -122
+bin 134 -122
+insert 123
+bin 123 123
+insert -123
+bin 133 -123
+insert 124
+bin 124 124
+insert -124
+bin 132 -124
+insert 125
+bin 125 125
+insert -125
+bin 131 -125
+insert 126
+bin 126 126
+insert -126
+bin 130 -126
+insert 127
+bin 127 127
+insert -127
+bin 129 -127
+insert 128
+bin 128 128
+insert -128
+bin 0 -128
+insert!
+remove 128 1
+member 128 0
+insert 256
+member 256 1
+size 256
+capacity 256
+remove 128 0
+bin 128 256
+clear
+size 0
+capacity 256
+insert 1
+bin 1 1
+insert -1
+bin 255 -1
+insert 2
+bin 2 2
+insert -2
+bin 254 -2
+insert 3
+bin 3 3
+insert -3
+bin 253 -3
+insert 4
+bin 4 4
+insert -4
+bin 252 -4
+insert 5
+bin 5 5
+insert -5
+bin 251 -5
+insert 6
+bin 6 6
+insert -6
+bin 250 -6
+insert 7
+bin 7 7
+insert -7
+bin 249 -7
+insert 8
+bin 8 8
+insert -8
+bin 248 -8
+insert 9
+bin 9 9
+insert -9
+bin 247 -9
+insert 10
+bin 10 10
+insert -10
+bin 246 -10
+insert 11
+bin 11 11
+insert -11
+bin 245 -11
+insert 12
+bin 12 12
+insert -12
+bin 244 -12
+insert 13
+bin 13 13
+insert -13
+bin 243 -13
+insert 14
+bin 14 14
+insert -14
+bin 242 -14
+insert 15
+bin 15 15
+insert -15
+bin 241 -15
+insert 16
+bin 16 16
+insert -16
+bin 240 -16
+insert 17
+bin 17 17
+insert -17
+bin 239 -17
+insert 18
+bin 18 18
+insert -18
+bin 238 -18
+insert 19
+bin 19 19
+insert -19
+bin 237 -19
+insert 20
+bin 20 20
+insert -20
+bin 236 -20
+insert 21
+bin 21 21
+insert -21
+bin 235 -21
+insert 22
+bin 22 22
+insert -22
+bin 234 -22
+insert 23
+bin 23 23
+insert -23
+bin 233 -23
+insert 24
+bin 24 24
+insert -24
+bin 232 -24
+insert 25
+bin 25 25
+insert -25
+bin 231 -25
+insert 26
+bin 26 26
+insert -26
+bin 230 -26
+insert 27
+bin 27 27
+insert -27
+bin 229 -27
+insert 28
+bin 28 28
+insert -28
+bin 228 -28
+insert 29
+bin 29 29
+insert -29
+bin 227 -29
+insert 30
+bin 30 30
+insert -30
+bin 226 -30
+insert 31
+bin 31 31
+insert -31
+bin 225 -31
+insert 32
+bin 32 32
+insert -32
+bin 224 -32
+insert 33
+bin 33 33
+insert -33
+bin 223 -33
+insert 34
+bin 34 34
+insert -34
+bin 222 -34
+insert 35
+bin 35 35
+insert -35
+bin 221 -35
+insert 36
+bin 36 36
+insert -36
+bin 220 -36
+insert 37
+bin 37 37
+insert -37
+bin 219 -37
+insert 38
+bin 38 38
+insert -38
+bin 218 -38
+insert 39
+bin 39 39
+insert -39
+bin 217 -39
+insert 40
+bin 40 40
+insert -40
+bin 216 -40
+insert 41
+bin 41 41
+insert -41
+bin 215 -41
+insert 42
+bin 42 42
+insert -42
+bin 214 -42
+insert 43
+bin 43 43
+insert -43
+bin 213 -43
+insert 44
+bin 44 44
+insert -44
+bin 212 -44
+insert 45
+bin 45 45
+insert -45
+bin 211 -45
+insert 46
+bin 46 46
+insert -46
+bin 210 -46
+insert 47
+bin 47 47
+insert -47
+bin 209 -47
+insert 48
+bin 48 48
+insert -48
+bin 208 -48
+insert 49
+bin 49 49
+insert -49
+bin 207 -49
+insert 50
+bin 50 50
+insert -50
+bin 206 -50
+insert 51
+bin 51 51
+insert -51
+bin 205 -51
+insert 52
+bin 52 52
+insert -52
+bin 204 -52
+insert 53
+bin 53 53
+insert -53
+bin 203 -53
+insert 54
+bin 54 54
+insert -54
+bin 202 -54
+insert 55
+bin 55 55
+insert -55
+bin 201 -55
+insert 56
+bin 56 56
+insert -56
+bin 200 -56
+insert 57
+bin 57 57
+insert -57
+bin 199 -57
+insert 58
+bin 58 58
+insert -58
+bin 198 -58
+insert 59
+bin 59 59
+insert -59
+bin 197 -59
+insert 60
+bin 60 60
+insert -60
+bin 196 -60
+insert 61
+bin 61 61
+insert -61
+bin 195 -61
+insert 62
+bin 62 62
+insert -62
+bin 194 -62
+insert 63
+bin 63 63
+insert -63
+bin 193 -63
+insert 64
+bin 64 64
+insert -64
+bin 192 -64
+insert 65
+bin 65 65
+insert -65
+bin 191 -65
+insert 66
+bin 66 66
+insert -66
+bin 190 -66
+insert 67
+bin 67 67
+insert -67
+bin 189 -67
+insert 68
+bin 68 68
+insert -68
+bin 188 -68
+insert 69
+bin 69 69
+insert -69
+bin 187 -69
+insert 70
+bin 70 70
+insert -70
+bin 186 -70
+insert 71
+bin 71 71
+insert -71
+bin 185 -71
+insert 72
+bin 72 72
+insert -72
+bin 184 -72
+insert 73
+bin 73 73
+insert -73
+bin 183 -73
+insert 74
+bin 74 74
+insert -74
+bin 182 -74
+insert 75
+bin 75 75
+insert -75
+bin 181 -75
+insert 76
+bin 76 76
+insert -76
+bin 180 -76
+insert 77
+bin 77 77
+insert -77
+bin 179 -77
+insert 78
+bin 78 78
+insert -78
+bin 178 -78
+insert 79
+bin 79 79
+insert -79
+bin 177 -79
+insert 80
+bin 80 80
+insert -80
+bin 176 -80
+insert 81
+bin 81 81
+insert -81
+bin 175 -81
+insert 82
+bin 82 82
+insert -82
+bin 174 -82
+insert 83
+bin 83 83
+insert -83
+bin 173 -83
+insert 84
+bin 84 84
+insert -84
+bin 172 -84
+insert 85
+bin 85 85
+insert -85
+bin 171 -85
+insert 86
+bin 86 86
+insert -86
+bin 170 -86
+insert 87
+bin 87 87
+insert -87
+bin 169 -87
+insert 88
+bin 88 88
+insert -88
+bin 168 -88
+insert 89
+bin 89 89
+insert -89
+bin 167 -89
+insert 90
+bin 90 90
+insert -90
+bin 166 -90
+insert 91
+bin 91 91
+insert -91
+bin 165 -91
+insert 92
+bin 92 92
+insert -92
+bin 164 -92
+insert 93
+bin 93 93
+insert -93
+bin 163 -93
+insert 94
+bin 94 94
+insert -94
+bin 162 -94
+insert 95
+bin 95 95
+insert -95
+bin 161 -95
+insert 96
+bin 96 96
+insert -96
+bin 160 -96
+insert 97
+bin 97 97
+insert -97
+bin 159 -97
+insert 98
+bin 98 98
+insert -98
+bin 158 -98
+insert 99
+bin 99 99
+insert -99
+bin 157 -99
+insert 100
+bin 100 100
+insert -100
+bin 156 -100
+insert 101
+bin 101 101
+insert -101
+bin 155 -101
+insert 102
+bin 102 102
+insert -102
+bin 154 -102
+insert 103
+bin 103 103
+insert -103
+bin 153 -103
+insert 104
+bin 104 104
+insert -104
+bin 152 -104
+insert 105
+bin 105 105
+insert -105
+bin 151 -105
+insert 106
+bin 106 106
+insert -106
+bin 150 -106
+insert 107
+bin 107 107
+insert -107
+bin 149 -107
+insert 108
+bin 108 108
+insert -108
+bin 148 -108
+insert 109
+bin 109 109
+insert -109
+bin 147 -109
+insert 110
+bin 110 110
+insert -110
+bin 146 -110
+insert 111
+bin 111 111
+insert -111
+bin 145 -111
+insert 112
+bin 112 112
+insert -112
+bin 144 -112
+insert 113
+bin 113 113
+insert -113
+bin 143 -113
+insert 114
+bin 114 114
+insert -114
+bin 142 -114
+insert 115
+bin 115 115
+insert -115
+bin 141 -115
+insert 116
+bin 116 116
+insert -116
+bin 140 -116
+insert 117
+bin 117 117
+insert -117
+bin 139 -117
+insert 118
+bin 118 118
+insert -118
+bin 138 -118
+insert 119
+bin 119 119
+insert -119
+bin 137 -119
+insert 120
+bin 120 120
+insert -120
+bin 136 -120
+insert 121
+bin 121 121
+insert -121
+bin 135 -121
+insert 122
+bin 122 122
+insert -122
+bin 134 -122
+insert 123
+bin 123 123
+insert -123
+bin 133 -123
+insert 124
+bin 124 124
+insert -124
+bin 132 -124
+insert 125
+bin 125 125
+insert -125
+bin 131 -125
+insert 126
+bin 126 126
+insert -126
+bin 130 -126
+insert 127
+bin 127 127
+insert -127
+bin 129 -127
+insert 128
+bin 128 128
+insert -128
+bin 0 -128
+insert!
+remove 128 1
+member 128 0
+insert 256
+member 256 1
+size 256
+capacity 256
+remove 128 0
+bin 128 256
+clear
+delete
+details
+summary
