@@ -1,0 +1,35 @@
+#!/usr/bin/env bash
+
+# Download all ece 250 project files under one directory at once.
+
+if [ "$1" = "-h" ] || [ "$1" = "--help" ]; then
+	echo "Args: -h for help"
+	echo "	    <n> for project number"
+	echo "	    Specify where files will be downloaded in the 3rd argument"
+	echo "Sample usage: ./download250 3 ~/Desktop/lab3  # Downloads all P3 files to your desktop under lab3 directory"
+	exit 0
+fi
+
+if [ -z "$1" ] || [ -z "$2" ]; then
+	echo "Error. Usage: $0 <project number> <destination directory>"
+	echo "Or use -h for documentation"
+	exit 1
+fi
+
+# Check if wget is installed
+WGET_CHECK=`wget --help`
+if [ $? -ne 0 ]; then
+	echo "Error. wget is not installed on this computer. You need to install wget first."
+	exit 1
+fi
+
+
+PROJECT_DIR="P$1-src"
+DST_FOLDER="$2"
+wget -r -nH --cut-dirs=3 --no-parent --reject="index.html*" -e robots=off http://www.stargroup.uwaterloo.ca/~ece250/projects/$PROJECT_DIR/ -P $DST_FOLDER
+
+if [ $? -ne 0 ];then
+	echo "Error: Something went wrong. Couldn't download the requested files."
+	exit 1
+fi
+
