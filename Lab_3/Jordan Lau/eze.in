@@ -1,0 +1,48 @@
+new
+root0
+insert e 1
+insert ece 1
+size 2
+insert ece 0
+insert ecece 1
+size 3
+insert ececece 1
+insert ecececece 1
+insert ecececece 0
+insert EcEcEcEcEc 1
+size 6
+insert! eZe2022
+member! eZe2022
+erase! eZe2022
+insert! !@#$%^&*()-+{}\:";',.<>/?
+member! !@#$%^&*()-+{}\:";',.<>/?
+erase! !@#$%^&*()-+{}\:";',.<>/?
+member ece 1
+member ecece 1
+member ecececece 1
+member ecec 0
+member ececececece 0
+member EcEcEcEcEc 1
+erase EcEcEcEcEc 1
+member EcEcEcEcEc 0
+erase ececececece 0
+erase ecececece 1
+member ece 1
+size 4
+member ecececece 0
+insert ecececece 1
+size 5
+erase ece 1
+erase ece 0
+member ece 0
+erase e 1
+member e 0
+member ecececece 1
+erase ecececece 1
+member ecececece 0
+member ecece 1
+erase ecece 1
+size 1
+delete
+summary
+exit
