@@ -1,0 +1,119 @@
+new
+size 0
+empty 1
+root0
+member abc 0
+member! a%c
+member! @#$
+erase abc 0
+erase! a%c
+erase! @#$
+insert! a$
+root0
+member a 0
+member! a$
+size 0
+empty 1
+insert! $a
+root0
+member a 0
+member! $a
+size 0
+empty 1
+insert abc 1
+root
+exit
+member abc 1
+size 1
+empty 0
+erase abc 1
+size 0
+empty 1
+insert abc 1
+insert def 1
+member abc 1
+member def 1
+size 2
+empty 0
+erase abc 1
+member abc 0
+member def 1
+size 1
+empty 0
+erase def 1
+member def 0
+size 0
+insert a 1
+member a 1
+size 1
+empty 0
+erase a 1
+size 0
+insert abc 1
+insert abcd 1
+member abc 1
+member abcd 1
+erase abcd 1
+member abcd 0
+member abc 1
+insert abcd 1
+erase abc 1
+member abc 0
+member abcd 1
+erase abcd 1
+member abcd 0
+size 0
+empty 1
+insert abcd 1
+insert abde 1
+erase abde 1
+member abde 0
+member abcd 1
+erase abcd 1
+size 0
+empty 1
+insert abcde 1
+insert abcde 0
+member abcde 1
+erase abcd 0
+erase abcdef 0
+member abcde 1
+erase abcde 1
+size 0
+empty 1
+insert abcd 1
+insert abcde 1
+insert fgh 1
+clear
+size 0
+empty 1
+root0
+insert abcde 1
+size 1
+root
+child 0
+child 1
+child 2
+child 3
+child 4
+child0 5
+exit
+clear
+size 0
+insert zyxw 1
+root
+child 25
+child 24
+child 23
+child 22
+exit
+clear
+insert aBcDe 1
+member abcde 1
+size 1
+clear
+empty 1
+clear
+empty 1
+delete
+summary
