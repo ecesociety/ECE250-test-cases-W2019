@@ -1,0 +1,8 @@
+new
+clear
+insert test 1
+clear
+clear
+delete
+summary
+exit

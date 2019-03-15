@@ -1,0 +1,12 @@
+new
+empty 1
+insert abcd 1
+empty 0
+insert defg 1
+erase  abcd 1
+empty 0
+erase  defg 1
+empty 1
+delete
+summary
+exit

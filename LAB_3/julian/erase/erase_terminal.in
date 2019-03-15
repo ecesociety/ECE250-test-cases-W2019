@@ -1,0 +1,12 @@
+new
+insert abcd 1
+insert defg 1
+member abcd 1
+member defg 1
+erase  abcd 1
+member abcd 0
+member a 0
+member defg 1
+delete
+summary
+exit

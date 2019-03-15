@@ -1,0 +1,173 @@
+Julian's Test Cases
+===================
+
+NOTE: Some of the test cases in the random folder rely on the modified
+      Trie_node_tester.h. This tester is modified so it recursively starts a new
+      tester after a 'child' command, allowing the entire Trie to be
+      traversed. Professor Douglas Harder owns the copyright on the tester, but
+      has given permission to distribute this modified copy to use with the test
+      cases.
+
+Test cases are organized by folder since there's a lot of them. A brief
+explanation of each is below.
+
+Tip: You can filter the output of a test run with the grep command. For longer
+test runs it can be helpful to remove all lines that say 'Okay' since we know
+those are good.
+
+    $ ./Trie < tests/erase_all_items.in | grep -Fv 'Okay'
+    Starting Test Run
+    27 % Memory allocated minus memory deallocated: 0
+    Finishing Test Run
+
+Now we only have three lines to manually verify look ok.
+
+If you find these tests useful, please credit me in the 'list of students who
+helped me with this project' portion of the comment header in the submission.
+
+erase
+-----
+
+    erase_all_items.in
+
+        Erases every inserted string in the Trie. Tests that the root is
+        properly deleted and set to null when this happens.
+
+    erase_empty.in
+
+        Erases items that do not exist in the Trie since it is empty. Tests that
+        erase checks existance before erasing.
+
+    erase_nonexistant.in
+
+        Similar to erase_empty, but after inserting unrelated items. This is a
+        seperate code path since the root is no longer null.
+
+    erase_nonterminal.in
+
+        Erases a word that is part of a longer word that is also inserted to
+        verify that it does not delete the node in this case.
+
+    erase_repeated.in
+
+        Erases the same words twice to catch not setting the relevant pointers
+        to null.
+
+    erase_substr.in
+
+        Erases a substring of a previously inserted word to verify that erase
+        checks the terminal flags before erasing.
+
+    erase_terminal.in
+
+        Erases a word that does not overlap with any other and should be deleted
+        all the way back to the root.
+
+insert
+------
+
+    insert_existing.in
+
+        Tries to insert words that have already been inserted to verify that
+        insert correctly returns false in this case.
+
+    insert_long.in
+
+        Basic insert test with really long strings. More likely that any memory
+        misuse will show up here with a lot of nodes allocated.
+
+    insert_substr.in
+
+        Verifies that insert is correctly setting the terminal flag when new
+        words are inserted even if the nodes already exist.
+
+member
+------
+
+    member_empty.in
+
+        Checks that member always returns false on an empty tree (and that erase
+        and clear properly empty the tree).
+
+    member_reject_substr.in
+
+        Verifies that member respects the terminal flag and accordingly rejects
+        nodes not marked terminal even if they exist.
+
+    member_reject_superstr.in
+
+        Checks that member stops when there is no child to recurse to and
+        correcly returns false even though the portion of the string checked
+        matched.
+
+misc
+----
+
+    clear.in
+
+        Checks that clear resets the Trie to empty.
+
+    clear_already_empty.in
+
+        Calls clear twice to make sure it checks for an already empty Trie.
+
+    destructor.in
+
+        Deletes the Trie while full of strings to verify that the destructor
+        deletes all nodes properly (easiest way to implement is to have
+        destructor call clear on root if needed).
+
+    empty.in
+
+        Checks that empty correctly returns true for an empty Trie and false
+        otherwise.
+
+    root.in
+
+        Basic test of the root and child methods to make sure the pointers given
+        make sense.
+
+    size.in
+
+        Basic test of the size method to make sure it follows the number of
+        items inserted.
+
+overall
+-------
+
+    case_insensitive.in
+
+        Tests the same string with multiple casings as a basic test that all
+        methods are properly ignoring case.
+
+    invalid_args.in
+
+        Tries many methods with strings that contain non-alpha characters to
+        verify an exception is thrown in this case (useful to have a helper
+        method that checks a string for validty and then just call it once per
+        Trie method that takes a string).
+
+   single_char.in
+
+        Tests a lot of single character strings.
+
+   test.in
+
+        The provided test case.
+
+printing
+--------
+
+    This tests aren't particularly special, but they print the data a structure
+    when done. If you have implemented the print method then this is useful for
+    manual verification that your code is doing what you expect or as a
+    regression test that can warn of any differences in the Trie state if you
+    save the output.
+
+random
+------
+
+    Computer generated test cases, designed to catch bugs simply by sheer volume
+    of actions taken. Don't try and run these first, instead use them as
+    verification once the small test cases are passing. As was mentioned above,
+    these require compiling with the modified Trie_node_tester.h.

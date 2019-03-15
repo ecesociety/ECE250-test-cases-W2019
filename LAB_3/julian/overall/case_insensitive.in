@@ -1,0 +1,9 @@
+new
+insert tEST 1
+member Test 1
+insert test 0
+erase  tEsT 1
+member test 0
+delete
+summary
+exit

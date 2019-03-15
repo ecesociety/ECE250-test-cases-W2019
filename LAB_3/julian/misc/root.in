@@ -1,0 +1,18 @@
+new
+root0
+insert a 1
+insert c 1
+insert d 1
+root
+child 0
+exit
+child0 1
+child 2
+exit
+child 3
+exit
+child0 5
+exit
+delete
+summary
+exit

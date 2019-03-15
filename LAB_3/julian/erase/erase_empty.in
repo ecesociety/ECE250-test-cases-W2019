@@ -1,0 +1,8 @@
+new
+erase aerea 0
+erase cdcd  0
+erase aaa   0
+erase! #^&*
+delete
+summary
+exit

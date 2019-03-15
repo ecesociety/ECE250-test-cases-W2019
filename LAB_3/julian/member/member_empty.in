@@ -1,0 +1,12 @@
+new
+member a 0
+member abcd 0
+insert a 1
+erase  a 1
+member a 0
+insert test 1
+clear
+member test 0
+delete
+summary
+exit
