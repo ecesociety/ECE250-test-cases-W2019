@@ -1,0 +1,16 @@
+new
+insert abcdef 1
+insert abcde 1
+insert abcd 1
+insert abc 1
+insert ab 1
+insert a 1
+member abcdef 1
+member abcde 1
+member abcd 1
+member abc 1
+member ab 1
+member a 1
+delete
+summary
+exit

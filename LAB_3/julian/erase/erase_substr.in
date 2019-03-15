@@ -1,0 +1,9 @@
+new
+insert thoughts 1
+erase thou    0
+erase th      0
+erase thought 0
+member thoughts 1
+delete
+summary
+exit

@@ -1,0 +1,28 @@
+new
+insert j 1
+insert u 1
+insert l 1
+insert i 1
+insert a 1
+insert n 1
+member j 1
+member u 1
+member l 1
+member i 1
+member a 1
+member n 1
+erase  j 1
+erase  u 1
+erase  l 1
+erase  i 1
+erase  a 1
+erase  n 1
+member j 0
+member u 0
+member l 0
+member i 0
+member a 0
+member n 0
+delete
+summary
+exit

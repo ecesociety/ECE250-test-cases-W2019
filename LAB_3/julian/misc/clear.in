@@ -1,0 +1,21 @@
+new
+root0
+size 0
+empty 1
+insert abcd  1
+insert defg  1
+insert abcde 1
+root
+exit
+size 3
+empty 0
+clear
+root0
+size 0
+empty 1
+member abcd  0
+member defg  0
+member abcde 0
+delete
+summary
+exit

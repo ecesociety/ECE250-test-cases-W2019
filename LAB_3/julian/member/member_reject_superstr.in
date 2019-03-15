@@ -1,0 +1,9 @@
+new
+insert tri      1
+member trie     0
+member trien    0
+member trieno   0
+member trienode 0
+delete
+summary
+exit

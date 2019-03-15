@@ -1,0 +1,11 @@
+new
+insert abcd 1
+insert defg 1
+erase  the 0
+erase  fable 0
+erase  then 0
+erase  faded 0
+erase  from 0
+delete
+summary
+exit

@@ -1,0 +1,25 @@
+new
+size 0
+insert abcd 1
+size 1
+insert defg 1
+size 2
+insert test 1
+size 3
+insert! ^&*
+size 3
+member test 1
+size 3
+erase  abcd 1
+size 2
+erase  defg 1
+size 1
+erase  nonexistant 0
+size 1
+erase! ---
+size 1
+erase  test 1
+size 0
+delete
+summary
+exit

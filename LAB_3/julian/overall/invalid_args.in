@@ -1,0 +1,16 @@
+new
+insert! @
+insert! abcd*
+insert! ab#cd
+member! abcd)
+member! $abcd
+erase!  abcd^
+erase!  (abcd
+member  abcd 0
+erase   abcd 0
+insert  abcd 1
+member  abcd 1
+erase   abcd 1
+delete
+summary
+exit

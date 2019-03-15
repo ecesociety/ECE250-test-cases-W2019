@@ -1,0 +1,10 @@
+new
+insert abcd 1
+insert defg 1
+erase abcd 1
+erase abcd 0
+erase defg 1
+erase defg 0
+delete
+summary
+exit
