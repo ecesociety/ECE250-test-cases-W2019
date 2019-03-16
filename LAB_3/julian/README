@@ -1,6 +1,10 @@
 Julian's Test Cases
 ===================
 
+- Added a script to run all files in the provided folders
+    For example the following runs all tests in erase. The 1 means that all lines with 'Okay' are removed
+    `sh test-all.sh erase 1`
+
 NOTE: Some of the test cases in the random folder rely on the modified
       Trie_node_tester.h. This tester is modified so it recursively starts a new
       tester after a 'child' command, allowing the entire Trie to be
