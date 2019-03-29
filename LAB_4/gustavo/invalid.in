@@ -1,0 +1,25 @@
+new: 3
+degree! 3
+degree! -1
+degree! 10000
+degree! -10000
+adjacent! 0 3
+adjacent! -1 0
+adjacent! 0 10000
+adjacent! 0 -10000
+mst! 3
+mst! -1
+mst! 10000
+mst! -10000
+insert! 0 3 0.3
+insert! -1 0 1.0
+insert! 0 10000 0.1
+insert! -10000 0 1.0
+insert! 0 0 0.0
+insert! 1 1 1.1
+insert! 2 2 2.2
+insert! 3 3 3.3
+insert! 0 1 -1
+insert! 0 1 -10000
+delete
+summary

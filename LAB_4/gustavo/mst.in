@@ -1,0 +1,25 @@
+new: 9
+insert 0 1 4
+insert 0 7 8
+insert 1 7 11
+insert 1 2 8
+insert 2 3 7
+insert 2 5 4
+insert 2 8 2
+insert 3 4 9
+insert 3 5 14
+insert 4 5 10
+insert 5 6 2
+insert 6 7 1
+insert 6 8 6
+mst 0 37
+mst 1 37
+mst 2 37
+mst 3 37
+mst 4 37
+mst 5 37
+mst 6 37
+mst 7 37
+mst 8 37
+delete
+summary

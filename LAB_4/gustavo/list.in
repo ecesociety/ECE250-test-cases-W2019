@@ -1,0 +1,42 @@
+new: 6
+insert 0 1 0.1
+insert 0 2 0.2
+insert 0 3 0.3
+insert 0 4 0.4
+insert 0 1 1.0
+insert 0 3 3.0
+insert 0 5 0.5
+insert 0 5 5.0
+adjacent 0 1 1.0
+adjacent 1 0 1.0
+adjacent 0 2 0.2
+adjacent 2 0 0.2
+adjacent 0 3 3.0
+adjacent 3 0 3.0
+adjacent 0 4 0.4
+adjacent 4 0 0.4
+adjacent 0 5 5.0
+adjacent 5 0 5.0
+delete
+summary
+new: 6
+insert 0 1 0.1
+insert 0 2 0.2
+insert 0 3 0.3
+insert 0 4 0.4
+insert 0 5 0.5
+insert 0 1 0
+insert 0 3 0
+insert 0 5 0
+nonadjacent 0 1
+nonadjacent 1 0
+adjacent 0 2 0.2
+adjacent 2 0 0.2
+nonadjacent 0 3
+nonadjacent 3 0
+adjacent 0 4 0.4
+adjacent 4 0 0.4
+nonadjacent 0 5
+nonadjacent 5 0
+delete
+summary
