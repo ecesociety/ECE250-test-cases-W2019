@@ -1,0 +1,68 @@
+new: 4
+edge_count 0
+insert 0 1 4.2
+insert 0 1 0
+insert 2 3 3.3
+insert 2 3 0
+delete
+new: 1
+insert! 20 32 7.6
+delete
+new: 1000
+insert 998 999 5.2
+delete
+new: 1
+is_connected 1
+delete
+new: 0
+is_connected 0
+delete
+new: 50
+insert 5 10 4.4
+insert 10 5 0
+edge_count 0
+insert 6 7 5.5
+insert 7 6 3.3
+mst 6 3.3
+insert 7 8 2.1
+insert 8 7 1.5
+mst 8 4.8
+insert 6 7 0
+insert 8 7 0
+delete
+new: 6
+insert 0 1 9.6
+insert 1 2 4.5
+insert 2 3 6.7
+insert 4 1 6.8
+insert 3 4 8.9
+is_connected 0
+mst 5 0
+delete
+new: 4
+insert 0 1 0.1
+insert 1 2 1.2
+insert 2 3 2.3
+insert 3 0 3.1
+degree 0 2
+degree 1 2
+degree 2 2
+degree 3 2
+insert 1 0 1.0
+insert 1 2 2.0
+insert 2 3 3.2
+insert 3 1 1.3
+adjacent 0 1 1.0
+adjacent 2 1 2.0
+adjacent 3 2 3.2
+adjacent 1 3 1.3
+is_connected 1
+insert! 0 1 -26.4
+insert! 1 1 4.5
+insert! -4 2 5.6
+insert! 4 -2 7.6
+adjacent! 4 -2
+adjacent! -4 2
+delete
+summary
+exit
