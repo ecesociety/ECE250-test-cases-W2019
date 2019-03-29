@@ -1,0 +1,20 @@
+new: 3
+degree 0 0
+degree 1 0
+degree 2 0
+adjacent 0 0 0
+adjacent 1 1 0
+adjacent 2 2 0
+nonadjacent 0 1
+nonadjacent 1 0
+nonadjacent 0 2
+nonadjacent 2 0
+nonadjacent 1 2
+nonadjacent 2 1
+edge_count 0
+mst 0 0
+mst 1 0
+mst 2 0
+is_connected 0
+delete
+summary
