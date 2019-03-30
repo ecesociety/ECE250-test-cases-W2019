@@ -1,0 +1,19 @@
+new: 5
+insert 0 1 1
+adjacent 0 1 1
+adjacent 1 0 1
+insert 0 1 67
+adjacent 0 1 67
+adjacent 1 0 67
+insert 0 1 1280.1
+adjacent 0 1 1280.1
+adjacent 1 0 1280.1
+insert 0 2 12
+adjacent 0 2 12
+adjacent 2 0 12
+insert 0 2 124214
+adjacent 0 2 124214
+adjacent 2 0 124214
+delete
+summary
+exit

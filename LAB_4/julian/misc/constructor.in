@@ -1,0 +1,10 @@
+new
+degree 49 0
+degree! 50
+delete
+new: 4
+degree 3 0
+degree! 4
+delete
+summary
+exit

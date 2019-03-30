@@ -1,0 +1,41 @@
+new: 8
+insert 0 1 1
+insert 0 2 1
+insert 0 3 1
+insert 0 4 1
+insert 0 5 1
+insert 0 6 1
+insert 0 7 1
+insert 1 2 1
+insert 1 3 1
+insert 1 4 1
+insert 1 5 1
+insert 1 6 1
+insert 1 7 1
+insert 2 3 1
+insert 2 4 1
+insert 2 5 1
+insert 2 6 1
+insert 2 7 1
+insert 3 4 1
+insert 3 5 1
+insert 3 6 1
+insert 3 7 1
+insert 4 5 1
+insert 4 6 1
+insert 4 7 1
+insert 5 6 1
+insert 5 7 1
+insert 6 7 1
+mst 0 7
+mst 1 7
+mst 2 7
+mst 3 7
+mst 4 7
+mst 5 7
+mst 6 7
+mst 7 7
+is_connected 1
+delete
+summary
+exit

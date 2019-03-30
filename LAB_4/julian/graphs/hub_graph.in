@@ -1,0 +1,29 @@
+new: 10
+insert 5 0 315.3
+insert 1 5 745.4
+insert 5 2 1.3
+insert 5 3 461.4
+insert 4 5 31.3
+insert 6 5 98.5
+insert 5 7 235.3
+insert 5 8 45.33
+insert 9 5 663.132
+mst 0 2596.962
+mst 1 2596.962
+mst 2 2596.962
+mst 3 2596.962
+mst 4 2596.962
+mst 5 2596.962
+mst 6 2596.962
+mst 7 2596.962
+mst 8 2596.962
+mst 9 2596.962
+is_connected 1
+degree 5 9
+degree 0 1
+degree 3 1
+degree 6 1
+degree 8 1
+delete
+summary
+exit

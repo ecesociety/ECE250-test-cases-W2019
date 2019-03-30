@@ -1,0 +1,16 @@
+new: 10
+insert 0 1 1
+adjacent 0 1 1
+adjacent 1 0 1
+insert 5 3 67
+adjacent 5 3 67
+adjacent 3 5 67
+insert 0 1 0
+nonadjacent 0 1
+nonadjacent 1 0
+insert 5 3 0
+nonadjacent 5 3
+nonadjacent 3 5
+delete
+summary
+exit

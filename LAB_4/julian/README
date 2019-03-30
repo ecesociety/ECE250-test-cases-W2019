@@ -1,0 +1,154 @@
+Julian's Test Cases
+===================
+
+    Test cases are organized by folder since there's a lot of them. A brief
+    explanation of each is below.
+
+    If you find these tests useful, please credit me in the 'list of students
+    who helped me with this project' portion of the comment header in the
+    submission.
+
+What isn't tested
+-----------------
+
+    Obviously, there's no way to test runtime via this test interface. Both
+    edge_count() and degree() are required to be O(1) (ie. just read a counter
+    you update in insert()), make sure you check you are doing this.
+
+    Also, the interface doesn't provide a way to check the constructor throwing
+    exceptions for invalid argument or a way to pass infinity as a weight to
+    insert. The official statement from the lab instructor is that these won't
+    be tested because of this.
+
+errors
+------
+
+    adjacent_error_cases.in
+
+        Checks that adjacent() throws an execption when one or both vertices are
+        invalid.
+
+    degree_error_cases.in
+
+        Checks that degree() throws an exception when the vertex is invalid.
+
+    insert_error_cases.in
+
+        Checks that insert() throws an execption when one or both vertices are
+        invalid, the weight is negative, or both are the same vertex.
+
+    mst_error_cases.in
+
+        Checks that minimum_spanning_tree() throws an exception when the vertex
+        is invalid.
+
+graphs
+------
+
+    These tests are a bunch of handmade graphs that have they advantage they are
+    easier to understand while debugging when compared to the randomly generated
+    tests.
+
+    dense_graph.in
+
+        Every node is connected to every other node with the same edge
+        weight. minimum_spanning_tree() has to consider every edge in this
+        scenario and end up picking an arbitrary one each step.
+
+    disconnected_subgraphs.in
+
+        Nine nodes, but connected in groups of three. is_connected() should be
+        false in this scenario, but if not programmed properly through a search
+        can incorrectly return true beacuse all nodes are connected to
+        something. Additionally the MST size will depend on which of the three
+        groups the node you start from is in since you are supposed to use
+        Prim's not Kruskal's.
+
+    fully_connected.in
+
+        Another graph with every node connected to every other, but with
+        differing edge weights.
+
+    hub_graph.in
+
+        One node connected to every other node. MST should still be the same
+        regardless of where you start.
+
+    line.in
+
+        Four nodes connected in a line. Similar properties to the hub_graph as
+        it is also the minimum number of edges to achieve a connected graph.
+
+    no_edges.in
+
+        Self explanatory, your variables should be initialized properly when the
+        graph is first created.
+
+    single_node.in
+
+        A graph with only one vertex. insert() should always fail to add edges,
+        so degree() and edge_count() should always be zero. However,
+        is_connected() should be vacuously true since there are no pairs of
+        vertices to consider. Note that this is the lowest size that could be
+        tested, the lab instructors have ruled out testing zero vertices.
+
+insert
+------
+
+    insert_basic.in
+
+        Checks that insert() is able to add edges.
+
+    insert_remove.in
+
+        Checks that insert() is able to remove edges by being passed a weight of
+        zero.
+
+    insert_update.in
+
+        Checks that insert() will update an edge weight if asked to insert an
+        edge that already exists.
+
+misc
+----
+
+    construtor.in
+
+        Checks creating different sizes of graphs.
+
+    degree.in
+
+        Basic test of degree().
+
+    destructor.in
+
+        Deletes with edges inserted to check that any edge list implementations
+        also delete edges in the destructor.
+
+    edge_count.in
+
+        Basic test of edge_count().
+
+    test.in
+
+        The provided test case.
+
+random
+------
+
+    Computer generated test cases, designed to catch bugs simply by sheer volume
+    of actions taken. These were getting to very large file sizes and so are
+    separated into two goals.
+
+    random_accessors tests call adjacent() with every possible combination of
+    vertices, degree() with every vertex and check edge_count() after inserting
+    each edge. These verify that you are properly storing all aspects of the
+    graph.
+
+    random_graph tests call minimum_spanning_tree() on every vertex and check
+    is_connected() after inserting each edge. These verify that your graph
+    algorithms are working properly.
+
+    Evidently, it makes sense to run random_accessors first, then random_graph
+    so that you first check you are storing the data correctly, then check you
+    are processing it properly.
