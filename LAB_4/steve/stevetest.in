@@ -14,9 +14,6 @@ delete
 new: 1
 is_connected 1
 delete
-new: 0
-is_connected 0
-delete
 new: 50
 insert 5 10 4.4
 insert 10 5 0
