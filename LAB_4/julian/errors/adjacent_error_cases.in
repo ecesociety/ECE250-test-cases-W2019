@@ -1,0 +1,13 @@
+new: 10
+adjacent! 0 11
+adjacent! 11 2
+adjacent! 3 134
+adjacent! 3151 3
+adjacent! -13 3
+adjacent! 3 -135
+adjacent! -1351 -6334
+adjacent! -1 -1
+adjacent! 10 10
+delete
+summary
+exit

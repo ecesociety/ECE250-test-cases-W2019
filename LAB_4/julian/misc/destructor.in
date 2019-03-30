@@ -1,0 +1,8 @@
+new
+insert 3 5 31531
+insert 7 3 14761
+insert 12 34 315
+insert 42 35 1361
+delete
+summary
+exit

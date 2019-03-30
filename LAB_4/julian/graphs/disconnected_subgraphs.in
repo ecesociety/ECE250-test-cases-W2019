@@ -1,0 +1,33 @@
+new: 9
+insert 0 1 3.14
+insert 8 2 1.41
+insert 8 7 2.7
+insert 2 7 2
+insert 6 4 0.707
+insert 3 0 2.7
+insert 1 3 1
+insert 5 6 21
+insert 4 5 5.5
+edge_count 9
+degree 0 2
+degree 1 2
+degree 2 2
+degree 3 2
+degree 4 2
+degree 5 2
+degree 6 2
+degree 7 2
+degree 8 2
+is_connected 0
+mst 0 3.7
+mst 1 3.7
+mst 3 3.7
+mst 2 3.41
+mst 7 3.41
+mst 8 3.41
+mst 4 6.207
+mst 5 6.207
+mst 6 6.207
+delete
+summary
+exit

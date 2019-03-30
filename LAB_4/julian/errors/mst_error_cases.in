@@ -1,0 +1,7 @@
+new: 10
+mst! -1
+mst! 11
+mst! 13531
+delete
+summary
+exit

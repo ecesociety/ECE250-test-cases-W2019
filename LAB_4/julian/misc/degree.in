@@ -1,0 +1,27 @@
+new: 20
+degree 0 0
+degree 12 0
+degree 18 0
+insert 0 12 315.31
+degree 0 1
+degree 12 1
+degree 18 0
+insert 0 14 13.135
+degree 0 2
+degree 12 1
+degree 18 0
+insert 14 18 31.31414
+degree 0 2
+degree 12 1
+degree 18 1
+insert 0 18 7.67
+degree 0 3
+degree 12 1
+degree 18 2
+insert 0 12 0
+degree 0 2
+degree 12 0
+degree 18 2
+delete
+summary
+exit

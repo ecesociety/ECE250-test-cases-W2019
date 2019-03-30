@@ -1,0 +1,17 @@
+new: 4
+insert 0 1 315
+insert 1 2 412
+insert 2 3 135
+edge_count 3
+degree 0 1
+degree 1 2
+degree 2 2
+degree 3 1
+mst 0 862
+mst 1 862
+mst 2 862
+mst 3 862
+is_connected 1
+delete
+summary
+exit

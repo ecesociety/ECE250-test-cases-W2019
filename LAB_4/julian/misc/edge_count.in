@@ -1,0 +1,12 @@
+new: 10
+insert 0 1 1
+edge_count 1
+insert 5 3 67
+edge_count 2
+insert 0 1 0
+edge_count 1
+insert 5 3 0
+edge_count 0
+delete
+summary
+exit

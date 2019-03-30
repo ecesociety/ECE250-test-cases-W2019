@@ -1,0 +1,16 @@
+new: 12
+insert! 0 0 2.5
+insert! 5 5 5
+insert! 9 9 125
+insert! -1 0 2.3
+insert! 2 -3 4.3
+insert! 15 2 164
+insert! 3 18 315
+insert! 102 3 31
+insert! 0 1 -100
+insert! 10 5 -50
+insert! 12 2 4
+insert! 3 12 3
+delete
+summary
+exit
